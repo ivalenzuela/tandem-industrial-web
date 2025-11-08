@@ -7,7 +7,8 @@
     "build": "npm run generate-prisma && next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "netlify deploy"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
